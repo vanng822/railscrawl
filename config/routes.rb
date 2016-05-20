@@ -1,9 +1,5 @@
 Rails.application.routes.draw do
-  get 'hello/world'
-
-  get 'memo/index'
-
-  get 'memo/status'
+  get '/shop/:id', to: 'shop#shop'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

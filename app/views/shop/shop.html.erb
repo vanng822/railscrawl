@@ -1,0 +1,8 @@
+<h1>Welcome to <%= @shop.name %></h1>
+<% if !@products.nil? %>
+<ul>
+    <% @products.each do | product | %>
+        <li><%= product.name %></li>
+    <% end %>
+</ul>
+<% end %>
