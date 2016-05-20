@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :products
   get '/shop/:id', to: 'shop#shop'
 
   # The priority is based upon order of creation: first created -> highest priority.

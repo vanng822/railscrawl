@@ -1,5 +1,5 @@
 class ShopController < ApplicationController
-  helper :all
+  helper ShopHelper
   def shop
     # raise ActiveRecord::RecordNotFound
     # handle as 404
